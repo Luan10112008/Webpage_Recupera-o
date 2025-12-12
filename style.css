@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8f9fa;
+}
+
+header {
+    background: #292b2c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.intro {
+    padding: 20px;
+    text-align: center;
+}
+
+.metodologia {
+    padding: 20px;
+    margin: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00000020;
+}
+
+.metodologia h2 {
+    color: #007bff;
+}
+
+.imagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.imagens img {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 6px #00000040;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #292b2c;
+    color: white;
+    margin-top: 40px;
+}
